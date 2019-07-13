@@ -1,0 +1,32 @@
+<resources>
+
+    <declare-styleable name="SignatureView">
+        <attr name="paint_color" format="color" />
+        <attr name="stroke_width" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="PagerTab">
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        
+        <attr name="customBackground" format="reference" />
+        <attr name="customOrientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="customGravity">
+            <flag name = "center" value = "0" />
+            <flag name = "left" value = "1" />
+            <flag name = "top" value = "2" />
+            <flag name = "right" value = "3" />
+            <flag name = "bttom" value = "4" />
+        </attr>
+    </declare-styleable>
+    
+     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+    
+</resources>

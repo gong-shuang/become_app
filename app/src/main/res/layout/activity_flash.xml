@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <CheckBox
+        android:id="@+id/ck_flash"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="left|center_vertical"
+        android:button="@null"
+        android:checked="false"
+        android:drawableLeft="@drawable/ck_status_selector"
+        android:text="手电筒"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+    
+</LinearLayout>
